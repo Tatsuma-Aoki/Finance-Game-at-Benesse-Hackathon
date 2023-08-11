@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -558,6 +559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 1248797758}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -1007,6 +1009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -1132,6 +1135,7 @@ GameObject:
   - component: {fileID: 72756353}
   - component: {fileID: 72756355}
   - component: {fileID: 72756354}
+  - component: {fileID: 72756356}
   m_Layer: 5
   m_Name: UsedMoney
   m_TagString: Untagged
@@ -1156,8 +1160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -273.99997, y: 74}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -186.99998, y: 74.85138}
+  m_SizeDelta: {x: 374, y: 48.2972}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72756354
 MonoBehaviour:
@@ -1179,10 +1183,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "\u6295\u8CC7\u3057\u305F\u91D1\u984D\uFF1A5000"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1256,6 +1260,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72756352}
   m_CullTransparentMesh: 1
+--- !u!114 &72756356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72756352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
+  panels: []
+  resultPanel: {fileID: 0}
+  termManager: {fileID: 0}
+  inputBuyExpense: {fileID: 0}
+  usedMoneyText: {fileID: 72756354}
+  earnedMoneyText: {fileID: 861564554}
+  profitMoneyText: {fileID: 1418638738}
+  valueOfEvent: 0
 --- !u!1 &75597886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,6 +1831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -1973,6 +1999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -3333,6 +3360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -3711,6 +3739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 1248797758}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -4212,7 +4241,7 @@ GameObject:
   - component: {fileID: 311672607}
   - component: {fileID: 311672606}
   m_Layer: 5
-  m_Name: Panel2-1
+  m_Name: Panel21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4358,8 +4387,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4836,6 +4865,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -5059,6 +5089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec51b8ed1eca0e4cbe27755b992600b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  termCount: 0
+  termString: 
 --- !u!4 &399653350
 Transform:
   m_ObjectHideFlags: 0
@@ -5127,6 +5159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -5750,7 +5783,7 @@ GameObject:
   - component: {fileID: 470802447}
   - component: {fileID: 470802446}
   m_Layer: 5
-  m_Name: Panel1-2
+  m_Name: Panel12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6263,7 +6296,7 @@ GameObject:
   - component: {fileID: 547240771}
   - component: {fileID: 547240770}
   m_Layer: 5
-  m_Name: Panel3-2
+  m_Name: Panel32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6468,6 +6501,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552827903}
+  m_CullTransparentMesh: 1
+--- !u!1 &579078518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 579078519}
+  - component: {fileID: 579078521}
+  - component: {fileID: 579078520}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &579078519
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579078518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 618130651}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 229.77, y: 0}
+  m_SizeDelta: {x: 336.6849, y: 164.7052}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &579078520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579078518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1f2655f9dd851854580d7377097c76dc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &579078521
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579078518}
   m_CullTransparentMesh: 1
 --- !u!1 &586399498
 GameObject:
@@ -6838,8 +6947,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6949,6 +7058,7 @@ RectTransform:
   - {fileID: 861564553}
   - {fileID: 1418638737}
   - {fileID: 697894542}
+  - {fileID: 579078519}
   m_Father: {fileID: 942389903}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7128,6 +7238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -7514,6 +7625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels: []
   resultPanel: {fileID: 0}
   termManager: {fileID: 0}
@@ -8015,6 +8127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -8317,6 +8430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -8484,6 +8598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -8786,6 +8901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels: []
   resultPanel: {fileID: 618130650}
   termManager: {fileID: 399653349}
@@ -8941,6 +9057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -9277,6 +9394,7 @@ GameObject:
   - component: {fileID: 861564553}
   - component: {fileID: 861564555}
   - component: {fileID: 861564554}
+  - component: {fileID: 861564556}
   m_Layer: 5
   m_Name: EarnedMoney
   m_TagString: Untagged
@@ -9301,8 +9419,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -273.99997, y: -17}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -187, y: -14.4459}
+  m_SizeDelta: {x: 374, y: 44.8917}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &861564554
 MonoBehaviour:
@@ -9324,10 +9442,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "\u56DE\u53CE\u3057\u305F\u91D1\u984D\uFF1A7500"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9401,6 +9519,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861564552}
   m_CullTransparentMesh: 1
+--- !u!114 &861564556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861564552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
+  panels: []
+  resultPanel: {fileID: 0}
+  termManager: {fileID: 0}
+  inputBuyExpense: {fileID: 0}
+  usedMoneyText: {fileID: 72756354}
+  earnedMoneyText: {fileID: 861564554}
+  profitMoneyText: {fileID: 1418638738}
+  valueOfEvent: 0
 --- !u!1 &871084664
 GameObject:
   m_ObjectHideFlags: 0
@@ -9589,6 +9728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -9891,6 +10031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -10152,7 +10293,7 @@ GameObject:
   - component: {fileID: 924127055}
   - component: {fileID: 924127054}
   m_Layer: 5
-  m_Name: Panel2-2
+  m_Name: Panel22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10517,6 +10658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels: []
   resultPanel: {fileID: 0}
   termManager: {fileID: 0}
@@ -11346,8 +11488,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11631,8 +11773,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11759,6 +11901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -11926,6 +12069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -12191,8 +12335,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12341,8 +12485,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12469,6 +12613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -13151,6 +13296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -13318,6 +13464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -13444,7 +13591,7 @@ GameObject:
   - component: {fileID: 1193676547}
   - component: {fileID: 1193676546}
   m_Layer: 5
-  m_Name: Panel1-3
+  m_Name: Panel13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13703,6 +13850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -13829,7 +13977,7 @@ GameObject:
   - component: {fileID: 1221828462}
   - component: {fileID: 1221828461}
   m_Layer: 5
-  m_Name: Panel3-4
+  m_Name: Panel34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14772,6 +14920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -15365,6 +15514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -15702,7 +15852,7 @@ GameObject:
   - component: {fileID: 1417218070}
   - component: {fileID: 1417218069}
   m_Layer: 5
-  m_Name: Panel1-4
+  m_Name: Panel14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15784,6 +15934,7 @@ GameObject:
   - component: {fileID: 1418638737}
   - component: {fileID: 1418638739}
   - component: {fileID: 1418638738}
+  - component: {fileID: 1418638740}
   m_Layer: 5
   m_Name: ProfitMoney
   m_TagString: Untagged
@@ -15808,8 +15959,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -274, y: -106}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -202.4837, y: -102.81}
+  m_SizeDelta: {x: 343.0326, y: 43.616}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1418638738
 MonoBehaviour:
@@ -15831,10 +15982,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "\u5229\u76CA\uFF1A2500"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15908,6 +16059,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418638736}
   m_CullTransparentMesh: 1
+--- !u!114 &1418638740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418638736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
+  panels: []
+  resultPanel: {fileID: 0}
+  termManager: {fileID: 0}
+  inputBuyExpense: {fileID: 0}
+  usedMoneyText: {fileID: 72756354}
+  earnedMoneyText: {fileID: 861564554}
+  profitMoneyText: {fileID: 1418638738}
+  valueOfEvent: 0
 --- !u!1 &1461187068
 GameObject:
   m_ObjectHideFlags: 0
@@ -16337,7 +16509,7 @@ GameObject:
   - component: {fileID: 1505108065}
   - component: {fileID: 1505108064}
   m_Layer: 5
-  m_Name: Panel3-1
+  m_Name: Panel31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16420,7 +16592,7 @@ GameObject:
   - component: {fileID: 1523307359}
   - component: {fileID: 1523307358}
   m_Layer: 5
-  m_Name: Panel1-1
+  m_Name: Panel11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16566,8 +16738,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16653,7 +16825,7 @@ GameObject:
   - component: {fileID: 1542709367}
   - component: {fileID: 1542709366}
   m_Layer: 5
-  m_Name: Panel2-4
+  m_Name: Panel24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16799,8 +16971,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17003,6 +17175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -17596,6 +17769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels: []
   resultPanel: {fileID: 618130650}
   termManager: {fileID: 399653349}
@@ -17751,6 +17925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -17940,8 +18115,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -18203,6 +18378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -18505,6 +18681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -18807,6 +18984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -19109,6 +19287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -19370,6 +19549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 1248797758}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -19617,7 +19797,7 @@ GameObject:
   - component: {fileID: 1837479857}
   - component: {fileID: 1837479856}
   m_Layer: 5
-  m_Name: Panel2-3
+  m_Name: Panel23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19839,8 +20019,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21045,6 +21225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -21382,7 +21563,7 @@ GameObject:
   - component: {fileID: 2033224216}
   - component: {fileID: 2033224215}
   m_Layer: 5
-  m_Name: Panel3-3
+  m_Name: Panel33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21528,8 +21709,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -21656,6 +21837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -21823,6 +22005,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 0}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -21990,6 +22173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4b96488d1be66748b3254d7b7471d56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStartPanel: {fileID: 1248797758}
   panels:
   - {fileID: 1523307356}
   - {fileID: 470802444}
@@ -22179,8 +22363,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
+  m_sharedMaterial: {fileID: -5043026354630915153, guid: b5c0fc78439e50c438853127ea730f08, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TermManager : MonoBehaviour
 {
-    public int termCount {get; set;} = 0;
-    public string termString {get; set;}
+    public int termCount = 0;
+    public string termString;
     // Start is called before the first frame update
     void Start()
     {

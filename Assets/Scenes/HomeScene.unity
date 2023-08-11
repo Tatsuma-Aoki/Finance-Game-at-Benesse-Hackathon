@@ -1234,7 +1234,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rewardText: {fileID: 1024352354}
-  reward: 0
 --- !u!114 &1024352354
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuizGame/QuizGameMainScene.unity
     guid: 2e22ae7b1a9e1c441aec1ea14836dd15
+  - enabled: 1
+    path: Assets/Scenes/SimulationGame/SimulationGameStartScene.unity
+    guid: 734960bbbdf59544ead98b04c9509a7a
   m_configObjects: {}

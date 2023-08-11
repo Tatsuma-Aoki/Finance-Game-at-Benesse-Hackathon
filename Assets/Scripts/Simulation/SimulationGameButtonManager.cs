@@ -7,6 +7,7 @@ using TMPro;
 
 public class SimulationGameButtonManager : MonoBehaviour
 {
+    [SerializeField] private GameObject gameStartPanel;
     [SerializeField] private List<GameObject> panels;
     [SerializeField] private GameObject resultPanel;
     [SerializeField] private TermManager termManager;
@@ -15,7 +16,6 @@ public class SimulationGameButtonManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI earnedMoneyText;
     [SerializeField] private TextMeshProUGUI profitMoneyText;
     public int valueOfEvent;
-    private GameObject nextPanel;
     private int profit;
     private bool isBuyButtonPushed = false;
     private bool isChangeNextTerm = true;
@@ -38,10 +38,10 @@ public class SimulationGameButtonManager : MonoBehaviour
 
     public void OnClickToGameStartButton()
     {
-        nextPanel = panels[termManager.termCount];
-        ActivatePanel(nextPanel.name);
-        nextPanel.transform.Find("SellButton").gameObject.GetComponent<Button>().interactable = false;
-        nextPanel.transform.Find("InputBuyExpense").gameObject.SetActive(false);
+        // ActivatePanel(panels[termManager.termCount].name);
+        panels[termManager.termCount].SetActive(true);
+        panels[termManager.termCount].transform.Find("SellButton").gameObject.GetComponent<Button>().interactable = false;
+        panels[termManager.termCount].transform.Find("InputBuyExpense").gameObject.SetActive(false);
     }
 
     public void OnClickToBackHomeButton()
@@ -68,6 +68,8 @@ public class SimulationGameButtonManager : MonoBehaviour
 
     public void OnClickToNextTermButton()
     {
+        termManager.termCount++;
+        panels[termManager.termCount].SetActive(true);
         if(isBuyButtonPushed)
         {
             totalUsedMoney += int.Parse(inputBuyExpense.text);
@@ -97,23 +99,24 @@ public class SimulationGameButtonManager : MonoBehaviour
             termManager.termCount++;
             if(termManager.termCount < 12)
             {
-                nextPanel = panels[termManager.termCount];
-                ActivatePanel(nextPanel.name);
+                // ActivatePanel(panels[termManager.termCount].name);
+                Debug.Log(panels[termManager.termCount].name);
+                // panels[termManager.termCount].SetActive(true);
                 if(PlayerPrefs.GetInt("BuyingExpense", 0) == 0)
                 {
-                    nextPanel.transform.Find("SellButton").gameObject.GetComponent<Button>().interactable = false;
-                    nextPanel.transform.Find("InputBuyExpense").gameObject.SetActive(false);
+                    panels[termManager.termCount].transform.Find("SellButton").gameObject.GetComponent<Button>().interactable = false;
+                    panels[termManager.termCount].transform.Find("InputBuyExpense").gameObject.SetActive(false);
                 }
                 else
                 {
-                    nextPanel.transform.Find("BuyButton").gameObject.GetComponent<Button>().interactable = false;
-                    nextPanel.transform.Find("InputBuyExpense").gameObject.SetActive(false);
+                    panels[termManager.termCount].transform.Find("BuyButton").gameObject.GetComponent<Button>().interactable = false;
+                    panels[termManager.termCount].transform.Find("InputBuyExpense").gameObject.SetActive(false);
                 }
             }
             else
             {
-                nextPanel = resultPanel;
-                ActivatePanel(nextPanel.name);
+                // ActivatePanel(resultPanel.name);
+                resultPanel.SetActive(true);
                 usedMoney();
                 profitMoney();
                 earnedMoney();
